@@ -55,6 +55,7 @@ public class RediffLogin {
 	public void i_enter_and(String username, String password) {
 		 driver.findElement(By.id("login1")).sendKeys(username);
 		 driver.findElement(By.id("password")).sendKeys(password);
+		 System.out.println("Login Done by User2 ");
 	}
 
 
